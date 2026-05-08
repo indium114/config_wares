@@ -1,0 +1,133 @@
+settings:
+  managers:
+    brew:
+      install: "brew install"
+      remove: "brew remove"
+      update: "brew upgrade"
+    deb:
+      install: "sudo nala install -y"
+      remove: "sudo nala remove -y"
+      update: "sudo nala update; sudo nala upgrade -y"
+    flatpak:
+      install: "flatpak install -y flathub"
+      remove: "flatpak remove -y"
+      update: "flatpak update -y"
+    go:
+      install: "go install"
+      remove: "echo ''"
+
+wares:
+  wares:
+    name: wares
+    repo: indium114/wares
+    asset: "wares_Linux_x86_64"
+  hx:
+    name: hx
+    repo: helix-editor/helix
+    asset: "*.AppImage"
+  lazygit:
+    name: lazygit
+    repo: jesseduffield/lazygit
+    asset: "lazygit_*_linux_x86_64.tar.gz"
+  gh:
+    name: bin/gh
+    repo: cli/cli
+    asset: "gh_*_linux_amd64.tar.gz"
+    removetoplevel: true
+  yazi:
+    name: yazi
+    repo: sxyazi/yazi
+    asset: "yazi-x86_64-unknown-linux-musl.zip"
+    removetoplevel: true
+  libresprite:
+    name: LibreSprite-x86_64.AppImage
+    repo: libresprite/libresprite
+    asset: "libresprite-development-linux-x86_64.zip"
+  # mindustry:
+  #   name: mindustry
+  #   repo: anuken/mindustry
+  #   asset: "*.jar"
+  #   multiple: true
+  dotkeeper:
+    name: dotkeeper
+    repo: indium114/dotkeeper
+    asset: "dotkeeper_Linux_x86_64"
+  fastcards:
+    name: fastcards
+    repo: indium114/fastcards
+    asset: "fastcards_Linux_x86_64"
+  hocusfocus:
+    name: hocusfocus
+    repo: indium114/hocusfocus
+    asset: "hocusfocus_Linux_x86_64"
+  pricetag:
+    name: pricetag
+    repo: indium114/pricetag
+    asset: "pricetag_Linux_x86_64"
+
+blueprints:
+  pkgit:
+    repo: "https://git.symlinx.net/pkgit"
+    steps:
+      - "make"
+    artifacts:
+      - "pkgit"
+
+managers:
+  brew:
+    - "indium114/formulae/recall"
+    - "fzf"
+    - "fd"
+    - "croc"
+    - "gum"
+    - "zoxide"
+    - "eza"
+    - "tlrc"
+    - "delta"
+    - "ncdu"
+    - "luarocks"
+    - "ripgrep"
+    - "starship"
+    - "btop"
+    - "ruby"
+    - "bat"
+    - "fastfetch"
+    - "ytsurf"
+    - "nushell"
+    - "typst"
+    - "yamllint"
+    - "tree-sitter-cli"
+    - "television"
+    - "pipes-sh"
+    - "lua-language-server"
+    - "pandoc"
+    - "luacheck"
+    - "just"
+    - "glow"
+    - "charmbracelet/tap/freeze"
+    - "gopls"
+    - "yamlfmt"
+    - "marksman"
+    - "jujutsu"
+    - "aria2"
+    - "forgejo-cli"
+  deb:
+    - "figlet"
+    - "tmux"
+    - "libfuse2"
+    - "pkg-config"
+    - "nala"
+    - "flatpak"
+    - "libssl-dev"
+    - "libxml2-dev"
+    - "libcurl4-openssl-dev"
+    - "zathura"
+    - "zathura-pdf-poppler"
+    - "zathura-djvu"
+    - "vlc"
+    - "libluajit-5.1-dev"
+  go:
+    - "github.com/indium114/theatre@latest"
+    - "github.com/spf13/cobra-cli@latest"
+    - "github.com/indium114/satchel@latest"
+    - "github.com/indium114/jots@latest"
