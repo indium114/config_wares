@@ -109,6 +109,7 @@ managers:
   - vlc
   - libluajit-5.1-dev
   - liblua5.4-dev
+  - libreoffice-writer
   go:
   - github.com/indium114/theatre@latest
   - github.com/spf13/cobra-cli@latest
