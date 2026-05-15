@@ -39,6 +39,11 @@ wares:
     version: 2026.04.28-a
     asset: pricetag_Linux_x86_64
     digest: sha256:59f3a8d1e3c812fe60c30c368a94da485c71724fd65f037c8722f2cc4ae81a64
+  prismlauncher:
+    repo: prismlauncher/prismlauncher
+    version: 11.0.2
+    asset: PrismLauncher-Linux-x86_64.AppImage
+    digest: sha256:3c54d593bfc1337de5ce12dd17921fc618c2de2a303f6ffe9ed9f45a656c081e
   wares:
     repo: indium114/wares
     version: 0.6.1
@@ -57,12 +62,12 @@ blueprints:
     - pkgit
   recall:
     repo: https://github.com/indium114/recall
-    commit: 2d78972a2a4d06daf003ef391692b963055059e5
+    commit: 94aae2f38d70a317fc0fdf028cbefe16321af2a4
     artifacts:
     - recall
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: e60fce9e52b95e8bf1d1913296f9d9feaf6f6ef4
+    commit: fbccf42a655e68b4888532527fd061332e3029dc
     artifacts:
     - wares-git
 managers:

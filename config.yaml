@@ -64,6 +64,10 @@ wares:
     name: pricetag
     repo: indium114/pricetag
     asset: "pricetag_Linux_x86_64"
+  prismlauncher:
+    name: prismlauncher
+    repo: prismlauncher/prismlauncher
+    asset: "PrismLauncher-Linux-x86_64.AppImage"
 
 blueprints:
   pkgit:
@@ -75,15 +79,14 @@ blueprints:
   wares-git:
     repo: "https://github.com/indium114/wares"
     steps:
-      - "go build"
+      - "nix develop --command go build"
       - "mv ./wares ./wares-git"
     artifacts:
       - "wares-git"
   recall:
     repo: "https://github.com/indium114/recall"
     steps:
-      - "git switch next"
-      - "go build"
+      - "nix develop --command go build"
     artifacts:
       - "recall"
 
