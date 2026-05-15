@@ -89,7 +89,6 @@ blueprints:
 
 managers:
   brew:
-    - "indium114/formulae/recall"
     - "fzf"
     - "fd"
     - "croc"
