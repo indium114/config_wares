@@ -55,6 +55,11 @@ blueprints:
     commit: 83d471f2c1d1b1fa6be51f41e4f1c36ab19d7094
     artifacts:
     - pkgit
+  recall:
+    repo: https://github.com/indium114/recall
+    commit: 2d78972a2a4d06daf003ef391692b963055059e5
+    artifacts:
+    - recall
   wares-git:
     repo: https://github.com/indium114/wares
     commit: e60fce9e52b95e8bf1d1913296f9d9feaf6f6ef4

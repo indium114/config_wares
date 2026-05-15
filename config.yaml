@@ -79,6 +79,13 @@ blueprints:
       - "mv ./wares ./wares-git"
     artifacts:
       - "wares-git"
+  recall:
+    repo: "https://github.com/indium114/recall"
+    steps:
+      - "git switch next"
+      - "go build"
+    artifacts:
+      - "recall"
 
 managers:
   brew:
