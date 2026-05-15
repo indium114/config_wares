@@ -72,6 +72,13 @@ blueprints:
       - "make"
     artifacts:
       - "pkgit"
+  wares-git:
+    repo: "https://github.com/indium114/wares"
+    steps:
+      - "go build"
+      - "mv ./wares ./wares-git"
+    artifacts:
+      - "wares-git"
 
 managers:
   brew:
