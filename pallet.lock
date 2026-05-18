@@ -124,6 +124,7 @@ managers:
   - libluajit-5.1-dev
   - liblua5.4-dev
   - libreoffice-writer
+  - rustup
   go:
   - github.com/indium114/theatre@latest
   - github.com/spf13/cobra-cli@latest
