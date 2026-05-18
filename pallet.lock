@@ -67,7 +67,7 @@ blueprints:
     - pkgit
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: fbccf42a655e68b4888532527fd061332e3029dc
+    commit: a8dac50266dca4eb17d723cc1022bfeade0fba8a
     artifacts:
     - wares-git
 managers:
