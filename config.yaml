@@ -83,6 +83,7 @@ blueprints:
   wares-git:
     repo: "https://github.com/indium114/wares"
     steps:
+      - "git switch 0.7.0"
       - "nix develop --command go build"
       - "mv ./wares ./wares-git"
     artifacts:
