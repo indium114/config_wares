@@ -72,6 +72,11 @@ wares:
     name: prismlauncher
     repo: prismlauncher/prismlauncher
     asset: "PrismLauncher-Linux-x86_64.AppImage"
+  tv:
+    name: tv
+    repo: alexpasmantier/television
+    asset: "tv-*-x86_64-unknown-linux-musl.tar.gz"
+    removetoplevel: true
 
 blueprints:
   pkgit:
@@ -83,7 +88,6 @@ blueprints:
   wares-git:
     repo: "https://github.com/indium114/wares"
     steps:
-      - "git switch 0.7.0"
       - "nix develop --command go build"
       - "mv ./wares ./wares-git"
     artifacts:
@@ -91,6 +95,7 @@ blueprints:
 
 managers:
   brew:
+    - "fzf"
     - "fd"
     - "croc"
     - "gum"
