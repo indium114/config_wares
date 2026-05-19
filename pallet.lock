@@ -49,6 +49,11 @@ wares:
     version: 2026.05.15-a
     asset: recall_Linux_x86_64
     digest: sha256:6d69f85227b0a2d26fec3fce71bd81f845d1ba566af14bcf6443b240aea923a3
+  tv:
+    repo: alexpasmantier/television
+    version: 0.15.7
+    asset: tv-0.15.7-x86_64-unknown-linux-musl.tar.gz
+    digest: sha256:da70438c6bcaf1f465115575678953138dde897609ff8db23b4a19ebab965e1c
   wares:
     repo: indium114/wares
     version: 0.6.1
@@ -67,7 +72,7 @@ blueprints:
     - pkgit
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: a8dac50266dca4eb17d723cc1022bfeade0fba8a
+    commit: e6c5d31207eef458deeb8a4158787203dd420767
     artifacts:
     - wares-git
 managers:
@@ -85,7 +90,6 @@ managers:
   - ripgrep
   - starship
   - btop
-  - ruby
   - bat
   - fastfetch
   - ytsurf
@@ -100,7 +104,6 @@ managers:
   - luacheck
   - just
   - glow
-  - charmbracelet/tap/freeze
   - gopls
   - yamlfmt
   - marksman
