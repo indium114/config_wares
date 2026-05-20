@@ -4,82 +4,100 @@ wares:
     version: 2026.04.28-a
     asset: dotkeeper_Linux_x86_64
     digest: sha256:62de7bce4abd54280813b0fec4568f159071bdbbf133e2b789df4ba18b2d867a
+    system: false
   fastcards:
     repo: indium114/fastcards
     version: 2026.04.28-a
     asset: fastcards_Linux_x86_64
     digest: sha256:6ac53ef3d88b788d429d5b4de4a2738abcba7682be611bf26c6523074c781dab
+    system: false
   gh:
     repo: cli/cli
     version: v2.92.0
     asset: gh_2.92.0_linux_amd64.tar.gz
     digest: sha256:b57848131bdf0c229cd35e1f2a51aa718199858b2e728410b37e89a428943ec4
+    system: false
   hocusfocus:
     repo: indium114/hocusfocus
     version: 2026.04.28-a
     asset: hocusfocus_Linux_x86_64
     digest: sha256:9439a87c0307cd57847218a6d906f65042e551cdbed1c9029fc69ef26295b92c
+    system: false
   hx:
     repo: helix-editor/helix
     version: 25.07.1
     asset: helix-25.07.1-x86_64.AppImage
     digest: sha256:0d00848ca858e415a4b4a90612702a35aa491421c658c45a06774a265bc4c4f6
+    system: false
   lazygit:
     repo: jesseduffield/lazygit
     version: v0.61.1
     asset: lazygit_0.61.1_linux_x86_64.tar.gz
     digest: sha256:1b91e660700f2332696726b635202576b543e2bc49b639830dccd26bc5160d5d
+    system: false
   libresprite:
     repo: libresprite/libresprite
     version: v1.1
     asset: libresprite-development-linux-x86_64.zip
     digest: sha256:19e08b852c76216ff6b890d837cc24ae54cf476a715d35ee7f030c845f2ccf83
+    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.04.28-a
     asset: pricetag_Linux_x86_64
     digest: sha256:59f3a8d1e3c812fe60c30c368a94da485c71724fd65f037c8722f2cc4ae81a64
+    system: false
   prismlauncher:
     repo: prismlauncher/prismlauncher
     version: "9.4"
     asset: PrismLauncher-Linux-x86_64.AppImage
     digest: sha256:dee0a756462203ce59d2de377583ba0c2c4310d0853707c434a4701bb3fe823c
+    system: false
   recall:
     repo: indium114/recall
     version: 2026.05.15-a
     asset: recall_Linux_x86_64
     digest: sha256:6d69f85227b0a2d26fec3fce71bd81f845d1ba566af14bcf6443b240aea923a3
+    system: false
   sheets:
     repo: maaslalani/sheets
     version: v0.2.0
     asset: sheets_Linux_x86_64.tar.gz
     digest: sha256:5868d162a2df4771cd36122ae8e608ca7afca3d38774b2d17e9727db816e9c69
+    system: false
   tv:
     repo: alexpasmantier/television
     version: 0.15.7
     asset: tv-0.15.7-x86_64-unknown-linux-musl.tar.gz
     digest: sha256:da70438c6bcaf1f465115575678953138dde897609ff8db23b4a19ebab965e1c
+    system: false
   wares:
     repo: indium114/wares
     version: 0.7.0
     asset: wares_Linux_x86_64
     digest: sha256:9fd4096b8d9f907501401f2093559af319a1b4436f1f3d63d59c2db8ecdc7778
+    system: false
   yazi:
     repo: sxyazi/yazi
     version: v26.5.6
     asset: yazi-x86_64-unknown-linux-musl.zip
     digest: sha256:1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff
+    system: false
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
     commit: 83d471f2c1d1b1fa6be51f41e4f1c36ab19d7094
+    builtcommit: 83d471f2c1d1b1fa6be51f41e4f1c36ab19d7094
     artifacts:
     - pkgit
+    system: false
   wares-git:
     repo: https://github.com/indium114/wares
     commit: e6c5d31207eef458deeb8a4158787203dd420767
+    builtcommit: e6c5d31207eef458deeb8a4158787203dd420767
     artifacts:
     - wares-git
+    system: false
 managers:
   brew:
   - fzf
