@@ -77,6 +77,10 @@ wares:
     repo: alexpasmantier/television
     asset: "tv-*-x86_64-unknown-linux-musl.tar.gz"
     removetoplevel: true
+  sheets:
+    name: sheets
+    repo: maaslalani/sheets
+    asset: "sheets_Linux_x86_64.tar.gz"
 
 blueprints:
   pkgit:

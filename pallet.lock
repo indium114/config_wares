@@ -49,6 +49,11 @@ wares:
     version: 2026.05.15-a
     asset: recall_Linux_x86_64
     digest: sha256:6d69f85227b0a2d26fec3fce71bd81f845d1ba566af14bcf6443b240aea923a3
+  sheets:
+    repo: maaslalani/sheets
+    version: v0.2.0
+    asset: sheets_Linux_x86_64.tar.gz
+    digest: sha256:5868d162a2df4771cd36122ae8e608ca7afca3d38774b2d17e9727db816e9c69
   tv:
     repo: alexpasmantier/television
     version: 0.15.7
