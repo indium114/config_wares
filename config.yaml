@@ -147,7 +147,6 @@ managers:
     - "liblua5.4-dev"
     - "libreoffice-writer"
     - "rustup"
-    - "loupe"
   go:
     - "github.com/indium114/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
