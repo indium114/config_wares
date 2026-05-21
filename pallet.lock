@@ -49,9 +49,9 @@ wares:
     system: false
   prismlauncher:
     repo: prismlauncher/prismlauncher
-    version: "9.4"
+    version: 11.0.2
     asset: PrismLauncher-Linux-x86_64.AppImage
-    digest: sha256:dee0a756462203ce59d2de377583ba0c2c4310d0853707c434a4701bb3fe823c
+    digest: sha256:3c54d593bfc1337de5ce12dd17921fc618c2de2a303f6ffe9ed9f45a656c081e
     system: false
   recall:
     repo: indium114/recall
