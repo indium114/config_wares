@@ -81,6 +81,10 @@ wares:
     name: sheets
     repo: maaslalani/sheets
     asset: "sheets_Linux_x86_64.tar.gz"
+  markdown-oxide:
+    name: markdown-oxide
+    repo: feel-ix-343/markdown-oxide
+    asset: "markdown-oxide-v0.25.10-x86_64-unknown-linux-gnu"
 
 blueprints:
   pkgit:
@@ -128,7 +132,6 @@ managers:
     - "glow"
     - "gopls"
     - "yamlfmt"
-    - "marksman"
     - "jujutsu"
     - "aria2"
     - "forgejo-cli"
