@@ -145,6 +145,7 @@ managers:
   - aria2
   - forgejo-cli
   - go
+  - java
   deb:
   - figlet
   - tmux
