@@ -43,11 +43,11 @@ wares:
     name: LibreSprite-x86_64.AppImage
     repo: libresprite/libresprite
     asset: "libresprite-development-linux-x86_64.zip"
-  # mindustry:
-  #   name: mindustry
-  #   repo: anuken/mindustry
-  #   asset: "*.jar"
-  #   multiple: true
+  mindustry:
+    name: mindustry
+    repo: anuken/mindustry
+    asset: "*.jar"
+    multiple: true
   dotkeeper:
     name: dotkeeper
     repo: indium114/dotkeeper
@@ -136,6 +136,7 @@ managers:
     - "aria2"
     - "forgejo-cli"
     - "go"
+    - "java"
   deb:
     - "figlet"
     - "tmux"
