@@ -49,9 +49,9 @@ wares:
     system: false
   mindustry:
     repo: anuken/mindustry
-    version: v157.4
+    version: v158
     asset: Mindustry.jar
-    digest: sha256:ab73897710cf5974e79db0b44c92d0a9f16d035bdc99a16d3298f9a4bd679f33
+    digest: sha256:51f6f773fd2d038850d85d6060d7e05919d4de43a89b835122deb9125238f729
     system: false
   pricetag:
     repo: indium114/pricetag
@@ -85,9 +85,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.7.0
+    version: 0.8.0
     asset: wares_Linux_x86_64
-    digest: sha256:9fd4096b8d9f907501401f2093559af319a1b4436f1f3d63d59c2db8ecdc7778
+    digest: sha256:d25d72545282bc11c797d08151154baad205ee4f191e315d0c6d1d1343a8cb99
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -96,17 +96,10 @@ wares:
     digest: sha256:1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff
     system: false
 blueprints:
-  pkgit:
-    repo: https://git.symlinx.net/pkgit
-    commit: 83d471f2c1d1b1fa6be51f41e4f1c36ab19d7094
-    builtcommit: 83d471f2c1d1b1fa6be51f41e4f1c36ab19d7094
-    artifacts:
-    - pkgit
-    system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: e6c5d31207eef458deeb8a4158787203dd420767
-    builtcommit: e6c5d31207eef458deeb8a4158787203dd420767
+    commit: af100baf4357002eae802105102e6e1a3ce6ffc6
+    builtcommit: af100baf4357002eae802105102e6e1a3ce6ffc6
     artifacts:
     - wares-git
     system: false
