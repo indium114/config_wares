@@ -104,10 +104,17 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 2dea5bc2ad4281042758f0e9bfe98fa96bc89412
-    builtcommit: 2dea5bc2ad4281042758f0e9bfe98fa96bc89412
+    commit: 1586b05a45c28212b81c7ef09ec3ebb69cc80319
+    builtcommit: 1586b05a45c28212b81c7ef09ec3ebb69cc80319
     artifacts:
     - pkgit
+    system: false
+  termfarm:
+    repo: https://github.com/indium114/termfarm
+    commit: d1bda2bc7df95fbdf7a3d48e632086dc89c968f2
+    builtcommit: d1bda2bc7df95fbdf7a3d48e632086dc89c968f2
+    artifacts:
+    - .build/release/termfarm
     system: false
   wares-git:
     repo: https://github.com/indium114/wares

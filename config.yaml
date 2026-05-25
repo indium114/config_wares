@@ -104,6 +104,12 @@ blueprints:
       - "mv ./wares ./wares-git"
     artifacts:
       - "wares-git"
+  termfarm:
+    repo: "https://github.com/indium114/termfarm"
+    steps:
+      - "swift build --configuration release"
+    artifacts:
+      - ".build/release/termfarm"
 
 managers:
   brew:
