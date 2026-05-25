@@ -98,8 +98,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: cb7e87a7889c8ee3f33db43dc2f5653385dc9e29
-    builtcommit: cb7e87a7889c8ee3f33db43dc2f5653385dc9e29
+    commit: 2dea5bc2ad4281042758f0e9bfe98fa96bc89412
+    builtcommit: 2dea5bc2ad4281042758f0e9bfe98fa96bc89412
     artifacts:
     - pkgit
     system: false
@@ -164,6 +164,7 @@ managers:
   - liblua5.4-dev
   - libreoffice-writer
   - rustup
+  - dino-im
   go:
   - github.com/indium114/theatre@latest
   - github.com/spf13/cobra-cli@latest
