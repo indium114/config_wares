@@ -152,6 +152,7 @@ managers:
   - forgejo-cli
   - go
   - java
+  - swift
   deb:
   - figlet
   - tmux
