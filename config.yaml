@@ -87,12 +87,12 @@ wares:
     asset: "markdown-oxide-v0.25.10-x86_64-unknown-linux-gnu"
 
 blueprints:
-  # pkgit:
-  #   repo: "https://git.symlinx.net/pkgit"
-  #   steps:
-  #     - "make"
-  #   artifacts:
-  #     - "pkgit"
+  pkgit:
+    repo: "https://git.symlinx.net/pkgit"
+    steps:
+      - "make"
+    artifacts:
+      - "pkgit"
   wares-git:
     repo: "https://github.com/indium114/wares"
     steps:

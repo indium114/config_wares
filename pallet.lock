@@ -96,6 +96,13 @@ wares:
     digest: sha256:1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff
     system: false
 blueprints:
+  pkgit:
+    repo: https://git.symlinx.net/pkgit
+    commit: cb7e87a7889c8ee3f33db43dc2f5653385dc9e29
+    builtcommit: cb7e87a7889c8ee3f33db43dc2f5653385dc9e29
+    artifacts:
+    - pkgit
+    system: false
   wares-git:
     repo: https://github.com/indium114/wares
     commit: af100baf4357002eae802105102e6e1a3ce6ffc6
