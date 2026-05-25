@@ -89,6 +89,10 @@ wares:
     name: keepassxc
     repo: keepassxreboot/keepassxc
     asset: "KeePassXC-*-x86_64.AppImage"
+  hx-fork:
+    name: hx
+    repo: gj1118/helix
+    asset: "helix-linux-x86_64.tar.gz"
 
 blueprints:
   pkgit:

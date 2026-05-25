@@ -29,6 +29,12 @@ wares:
     asset: helix-25.07.1-x86_64.AppImage
     digest: sha256:0d00848ca858e415a4b4a90612702a35aa491421c658c45a06774a265bc4c4f6
     system: false
+  hx-fork:
+    repo: gj1118/helix
+    version: 25.10.20
+    asset: helix-linux-x86_64.tar.gz
+    digest: sha256:b6538ac2f50d191d50be6b0a7e7073e53ade1a7379e820a7729857ab9362c43e
+    system: false
   keepassxc:
     repo: keepassxreboot/keepassxc
     version: 2.7.12
@@ -104,8 +110,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 1586b05a45c28212b81c7ef09ec3ebb69cc80319
-    builtcommit: 1586b05a45c28212b81c7ef09ec3ebb69cc80319
+    commit: d864bf7907c814eef30e906e59b0890df34d311c
+    builtcommit: d864bf7907c814eef30e906e59b0890df34d311c
     artifacts:
     - pkgit
     system: false
