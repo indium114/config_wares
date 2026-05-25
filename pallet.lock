@@ -29,6 +29,12 @@ wares:
     asset: helix-25.07.1-x86_64.AppImage
     digest: sha256:0d00848ca858e415a4b4a90612702a35aa491421c658c45a06774a265bc4c4f6
     system: false
+  keepassxc:
+    repo: keepassxreboot/keepassxc
+    version: 2.7.12
+    asset: KeePassXC-2.7.12-x86_64.AppImage
+    digest: sha256:564fe8b751b9ef7aa057e4d3d0b2878db24eaa0f6b1c855c82e699ab0913ae49
+    system: false
   lazygit:
     repo: jesseduffield/lazygit
     version: v0.61.1

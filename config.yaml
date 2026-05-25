@@ -85,6 +85,10 @@ wares:
     name: markdown-oxide
     repo: feel-ix-343/markdown-oxide
     asset: "markdown-oxide-v0.25.10-x86_64-unknown-linux-gnu"
+  keepassxc:
+    name: keepassxc
+    repo: keepassxreboot/keepassxc
+    asset: "KeePassXC-*-x86_64.AppImage"
 
 blueprints:
   pkgit:
