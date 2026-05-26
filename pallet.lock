@@ -163,7 +163,6 @@ managers:
   - jujutsu
   - aria2
   - forgejo-cli
-  - go
   - java
   - swift
   deb:
