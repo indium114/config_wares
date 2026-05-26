@@ -65,6 +65,12 @@ wares:
     asset: Mindustry.jar
     digest: sha256:5fe75304b0574ff9b481e67c6a9475314008bc1148b61add5cbd3fccb08ae4e5
     system: false
+  osu!:
+    repo: ppy/osu
+    version: 2026.518.0-lazer
+    asset: osu.AppImage
+    digest: sha256:e0b2cd8eb284052efb2c86eaf8ee97a718fa0afb9f18302936ab3ad473762660
+    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.04.28-a

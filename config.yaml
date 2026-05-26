@@ -93,6 +93,10 @@ wares:
     name: hx
     repo: gj1118/helix
     asset: "helix-linux-x86_64.tar.gz"
+  osu!:
+    name: osu!
+    repo: ppy/osu
+    asset: "osu.AppImage"
 
 blueprints:
   pkgit:
