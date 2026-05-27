@@ -103,9 +103,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.1
+    version: 0.8.2
     asset: wares_Linux_x86_64
-    digest: sha256:a4b7c11cde1864a139ccc59634a95f3ab535f815480a3603d74f6a3ad98493b4
+    digest: sha256:3379cd6e40dfaf2aa0c2d925ced501bea1facfa178317ce9b70d661d7317d701
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -130,8 +130,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: b7765b678c2f2614700369de1054acee2adacf79
-    builtcommit: b7765b678c2f2614700369de1054acee2adacf79
+    commit: 2d3c779cc818d2ef78d6468f3eb815da32fbf520
+    builtcommit: 2d3c779cc818d2ef78d6468f3eb815da32fbf520
     artifacts:
     - wares-git
     system: false
