@@ -130,8 +130,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: 2d3c779cc818d2ef78d6468f3eb815da32fbf520
-    builtcommit: 2d3c779cc818d2ef78d6468f3eb815da32fbf520
+    commit: d69b2f1b4ef8cccb36e0783b9e5e6a4e59b9eb6c
+    builtcommit: d69b2f1b4ef8cccb36e0783b9e5e6a4e59b9eb6c
     artifacts:
     - wares-git
     system: false
