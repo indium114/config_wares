@@ -43,9 +43,9 @@ wares:
     system: false
   lazygit:
     repo: jesseduffield/lazygit
-    version: v0.61.1
-    asset: lazygit_0.61.1_linux_x86_64.tar.gz
-    digest: sha256:1b91e660700f2332696726b635202576b543e2bc49b639830dccd26bc5160d5d
+    version: v0.62.0
+    asset: lazygit_0.62.0_linux_x86_64.tar.gz
+    digest: sha256:c57dd766436a42c2da52c3138034f55ca6d8bb935983ee8ae272f0d0386aca6a
     system: false
   libresprite:
     repo: libresprite/libresprite
