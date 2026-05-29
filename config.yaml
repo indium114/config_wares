@@ -97,6 +97,10 @@ wares:
     name: osu!
     repo: ppy/osu
     asset: "osu.AppImage"
+  helium:
+    name: helium
+    repo: imputnet/helium-linux
+    asset: "helium-*-x86_64.AppImage"
 
 blueprints:
   pkgit:
