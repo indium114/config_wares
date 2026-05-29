@@ -115,6 +115,7 @@ blueprints:
   termfarm:
     repo: "https://github.com/indium114/termfarm"
     steps:
+      - "swift package reset"
       - "swift build --configuration release"
     artifacts:
       - ".build/release/termfarm"
