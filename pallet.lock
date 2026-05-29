@@ -123,8 +123,8 @@ blueprints:
     system: false
   termfarm:
     repo: https://github.com/indium114/termfarm
-    commit: 909c1d367860e360a9f9e59ab905f494e2bdfd5a
-    builtcommit: 909c1d367860e360a9f9e59ab905f494e2bdfd5a
+    commit: 418d3a509e54d107c98a24a5e9180522515881c2
+    builtcommit: 418d3a509e54d107c98a24a5e9180522515881c2
     artifacts:
     - .build/release/termfarm
     system: false
