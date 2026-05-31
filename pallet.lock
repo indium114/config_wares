@@ -79,9 +79,9 @@ wares:
     system: false
   pricetag:
     repo: indium114/pricetag
-    version: 2026.04.28-a
+    version: 2026.05.31-b
     asset: pricetag_Linux_x86_64
-    digest: sha256:59f3a8d1e3c812fe60c30c368a94da485c71724fd65f037c8722f2cc4ae81a64
+    digest: sha256:b4f5dbf6f10667d3e34142871212b0c2a4422006b7aa2d8255cbb8853fdc56b8
     system: false
   prismlauncher:
     repo: prismlauncher/prismlauncher
@@ -109,9 +109,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.2
+    version: 0.8.4
     asset: wares_Linux_x86_64
-    digest: sha256:3379cd6e40dfaf2aa0c2d925ced501bea1facfa178317ce9b70d661d7317d701
+    digest: sha256:236782547b21d3a6495ce56c28736241ab3da7dd9867c5dd08efd2b1e90503e4
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -122,8 +122,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 4b9bdde6d7fefbf988160d26b376d330de48c5bd
-    builtcommit: 4b9bdde6d7fefbf988160d26b376d330de48c5bd
+    commit: 85f3e127f1cd809d9e0b76cec73f14b2b19e5345
+    builtcommit: 85f3e127f1cd809d9e0b76cec73f14b2b19e5345
     artifacts:
     - pkgit
     system: false
@@ -136,8 +136,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: d69b2f1b4ef8cccb36e0783b9e5e6a4e59b9eb6c
-    builtcommit: d69b2f1b4ef8cccb36e0783b9e5e6a4e59b9eb6c
+    commit: 4d69405f27e128d53b27e276b4519e2dbddc66c5
+    builtcommit: 4d69405f27e128d53b27e276b4519e2dbddc66c5
     artifacts:
     - wares-git
     system: false
