@@ -77,6 +77,12 @@ wares:
     asset: osu.AppImage
     digest: sha256:e0b2cd8eb284052efb2c86eaf8ee97a718fa0afb9f18302936ab3ad473762660
     system: false
+  pkl:
+    repo: apple/pkl
+    version: 0.31.1
+    asset: pkl-linux-amd64
+    digest: sha256:618f13955d755cafbfe8c9cba1d27635848cd49dbc6abffd398d2751db1231bf
+    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.05.31-b
