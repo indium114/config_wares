@@ -43,11 +43,6 @@ wares:
     name: LibreSprite-x86_64.AppImage
     repo: libresprite/libresprite
     asset: "libresprite-development-linux-x86_64.zip"
-  mindustry:
-    name: mindustry
-    repo: anuken/mindustry
-    asset: "*.jar"
-    multiple: true
   dotkeeper:
     name: dotkeeper
     repo: indium114/dotkeeper
@@ -93,18 +88,6 @@ wares:
     name: hx
     repo: gj1118/helix
     asset: "helix-linux-x86_64.tar.gz"
-  osu!:
-    name: osu!
-    repo: ppy/osu
-    asset: "osu.AppImage"
-  helium:
-    name: helium
-    repo: imputnet/helium-linux
-    asset: "helium-*-x86_64.AppImage"
-  pkl:
-    name: pkl
-    repo: apple/pkl
-    asset: "pkl-linux-amd64"
 
 blueprints:
   pkgit:
@@ -162,7 +145,6 @@ managers:
     - "jujutsu"
     - "aria2"
     - "forgejo-cli"
-    - "java"
     - "swift"
   deb:
     - "figlet"
@@ -181,7 +163,6 @@ managers:
     - "libluajit-5.1-dev"
     - "liblua5.4-dev"
     - "libreoffice-writer"
-    - "rustup"
     - "dino-im"
     - "gnuplot"
   go:
