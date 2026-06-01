@@ -88,6 +88,12 @@ wares:
     name: hx
     repo: gj1118/helix
     asset: "helix-linux-x86_64.tar.gz"
+  nu:
+    name: nu
+    repo: nushell/nushell
+    asset: "nu-*-x86_64-unknown-linux-musl.tar.gz"
+    removetoplevel: true
+    system: true
 
 blueprints:
   pkgit:

@@ -59,6 +59,12 @@ wares:
     asset: markdown-oxide-v0.25.10-x86_64-unknown-linux-gnu
     digest: sha256:97fe937194e0cd83cd7cd3fdc557c219cd13986364c39fb9439ef93d2ebcedce
     system: false
+  nu:
+    repo: nushell/nushell
+    version: 0.113.1
+    asset: nu-0.113.1-x86_64-unknown-linux-musl.tar.gz
+    digest: sha256:7faea21f8a49edf760c7bb9267f7702827937b19fc7dce412716b1cacbf38ae7
+    system: true
   pricetag:
     repo: indium114/pricetag
     version: 2026.05.31-b
