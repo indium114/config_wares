@@ -147,7 +147,6 @@ managers:
   - bat
   - fastfetch
   - ytsurf
-  - nushell
   - typst
   - yamllint
   - tree-sitter-cli
