@@ -17,12 +17,6 @@ wares:
     asset: gh_2.93.0_linux_amd64.tar.gz
     digest: sha256:02d1290eba130e0b896f3709ffff22e1c75a51475ddb70476a85abc6b5807af0
     system: false
-  helium:
-    repo: imputnet/helium-linux
-    version: 0.12.5.1
-    asset: helium-0.12.5.1-x86_64.AppImage
-    digest: sha256:b9465ab8dada957ea46ad9a73bd5432c4b3e77e1c88648e4795dfa0f0d9e5263
-    system: false
   hocusfocus:
     repo: indium114/hocusfocus
     version: 2026.04.28-a
@@ -64,24 +58,6 @@ wares:
     version: v0.25.10
     asset: markdown-oxide-v0.25.10-x86_64-unknown-linux-gnu
     digest: sha256:97fe937194e0cd83cd7cd3fdc557c219cd13986364c39fb9439ef93d2ebcedce
-    system: false
-  mindustry:
-    repo: anuken/mindustry
-    version: v158.1
-    asset: Mindustry.jar
-    digest: sha256:5fe75304b0574ff9b481e67c6a9475314008bc1148b61add5cbd3fccb08ae4e5
-    system: false
-  osu!:
-    repo: ppy/osu
-    version: 2026.518.0-lazer
-    asset: osu.AppImage
-    digest: sha256:e0b2cd8eb284052efb2c86eaf8ee97a718fa0afb9f18302936ab3ad473762660
-    system: false
-  pkl:
-    repo: apple/pkl
-    version: 0.31.1
-    asset: pkl-linux-amd64
-    digest: sha256:618f13955d755cafbfe8c9cba1d27635848cd49dbc6abffd398d2751db1231bf
     system: false
   pricetag:
     repo: indium114/pricetag
