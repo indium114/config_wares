@@ -94,6 +94,10 @@ wares:
     asset: "nu-*-x86_64-unknown-linux-musl.tar.gz"
     removetoplevel: true
     system: true
+  helium:
+    name: helium
+    repo: imputnet/helium-linux
+    asset: "helium-*-x86_64.AppImage"
 
 blueprints:
   pkgit:

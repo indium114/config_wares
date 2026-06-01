@@ -17,6 +17,12 @@ wares:
     asset: gh_2.93.0_linux_amd64.tar.gz
     digest: sha256:02d1290eba130e0b896f3709ffff22e1c75a51475ddb70476a85abc6b5807af0
     system: false
+  helium:
+    repo: imputnet/helium-linux
+    version: 0.12.5.1
+    asset: helium-0.12.5.1-x86_64.AppImage
+    digest: sha256:b9465ab8dada957ea46ad9a73bd5432c4b3e77e1c88648e4795dfa0f0d9e5263
+    system: false
   hocusfocus:
     repo: indium114/hocusfocus
     version: 2026.04.28-a
