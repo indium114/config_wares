@@ -181,7 +181,6 @@ managers:
   - jujutsu
   - aria2
   - forgejo-cli
-  - java
   - swift
   deb:
   - figlet
@@ -200,7 +199,6 @@ managers:
   - libluajit-5.1-dev
   - liblua5.4-dev
   - libreoffice-writer
-  - rustup
   - dino-im
   - gnuplot
   go:
