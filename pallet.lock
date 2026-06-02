@@ -103,9 +103,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.4
+    version: 0.8.5
     asset: wares_Linux_x86_64
-    digest: sha256:236782547b21d3a6495ce56c28736241ab3da7dd9867c5dd08efd2b1e90503e4
+    digest: sha256:12b7cb2beb1dc112ee5747575dcd3a28ea209a688bd68afd482f2eb23ec732a5
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -116,8 +116,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 85f3e127f1cd809d9e0b76cec73f14b2b19e5345
-    builtcommit: 85f3e127f1cd809d9e0b76cec73f14b2b19e5345
+    commit: 62480d6cc957c9ad36dc2ca6fc5802d79b6e8590
+    builtcommit: 62480d6cc957c9ad36dc2ca6fc5802d79b6e8590
     artifacts:
     - pkgit
     system: false
@@ -130,8 +130,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: 4d69405f27e128d53b27e276b4519e2dbddc66c5
-    builtcommit: 4d69405f27e128d53b27e276b4519e2dbddc66c5
+    commit: b33ee119ba68977c04da60da06fcfc846f290315
+    builtcommit: b33ee119ba68977c04da60da06fcfc846f290315
     artifacts:
     - wares-git
     system: false
