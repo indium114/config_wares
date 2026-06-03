@@ -130,8 +130,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: d0b7fcfb3503cda711f0bf448a58c73599a51240
-    builtcommit: d0b7fcfb3503cda711f0bf448a58c73599a51240
+    commit: 931bdd501aea3a04b4f708db21d5c89123144755
+    builtcommit: 931bdd501aea3a04b4f708db21d5c89123144755
     artifacts:
     - wares-git
     system: false
@@ -188,6 +188,9 @@ managers:
   - libreoffice-writer
   - dino-im
   - gnuplot
+  - docker-cli
+  - docker-compose
+  - docker.io
   go:
   - github.com/indium114/theatre@latest
   - github.com/spf13/cobra-cli@latest
