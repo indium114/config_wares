@@ -98,6 +98,10 @@ wares:
     name: helium
     repo: imputnet/helium-linux
     asset: "helium-*-x86_64.AppImage"
+  pioneer:
+    name: pioneer
+    repo: pioneerspacesim/pioneer
+    asset: "Pioneer-x86_64.AppImage"
 
 blueprints:
   pkgit:

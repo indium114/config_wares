@@ -71,6 +71,12 @@ wares:
     asset: nu-0.113.1-x86_64-unknown-linux-musl.tar.gz
     digest: sha256:7faea21f8a49edf760c7bb9267f7702827937b19fc7dce412716b1cacbf38ae7
     system: true
+  pioneer:
+    repo: pioneerspacesim/pioneer
+    version: "20260203"
+    asset: Pioneer-x86_64.AppImage
+    digest: sha256:e369965155c589f5e369b0975c228fefeb8b2a52031b6552540a8781869704ba
+    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.05.31-b
