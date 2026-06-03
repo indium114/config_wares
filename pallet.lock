@@ -1,9 +1,9 @@
 wares:
   dotkeeper:
     repo: indium114/dotkeeper
-    version: 2026.04.28-a
+    version: 2026.06.03-a
     asset: dotkeeper_Linux_x86_64
-    digest: sha256:62de7bce4abd54280813b0fec4568f159071bdbbf133e2b789df4ba18b2d867a
+    digest: sha256:dfdf7522267babaf5e9183e7133b588c81c84dcfa60cad1943f42993b5af7fc0
     system: false
   fastcards:
     repo: indium114/fastcards
@@ -122,8 +122,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 62480d6cc957c9ad36dc2ca6fc5802d79b6e8590
-    builtcommit: 62480d6cc957c9ad36dc2ca6fc5802d79b6e8590
+    commit: 198cde49db902ee97775c74c5cfd971b07cb0c78
+    builtcommit: 198cde49db902ee97775c74c5cfd971b07cb0c78
     artifacts:
     - pkgit
     system: false
