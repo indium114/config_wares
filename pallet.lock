@@ -41,6 +41,18 @@ wares:
     asset: helix-linux-x86_64.tar.gz
     digest: sha256:b6538ac2f50d191d50be6b0a7e7073e53ade1a7379e820a7729857ab9362c43e
     system: false
+  jots:
+    repo: indium114/jots
+    version: 2026.04.28-a
+    asset: jots_Linux_x86_64
+    digest: sha256:0bdb6be653569f8dae3b53f2b548b3d20e16fca0c4de7e151b83d068627905b0
+    system: false
+  just:
+    repo: casey/just
+    version: 1.51.0
+    asset: just-1.51.0-x86_64-unknown-linux-musl.tar.gz
+    digest: sha256:c8f085ca3e885723c341d06243fc291b5abfdc8bbe3b2c076b117de490387b59
+    system: false
   keepassxc:
     repo: keepassxreboot/keepassxc
     version: 2.7.12
@@ -95,11 +107,23 @@ wares:
     asset: recall_Linux_x86_64
     digest: sha256:6d69f85227b0a2d26fec3fce71bd81f845d1ba566af14bcf6443b240aea923a3
     system: false
+  satchel:
+    repo: indium114/satchel
+    version: 2026.04.28-a
+    asset: satchel_Linux_x86_64
+    digest: sha256:30dca4878d5847db3b326aef75e1af071d9fe0c677236d0b3b16740525a72a86
+    system: false
   sheets:
     repo: maaslalani/sheets
     version: v0.2.0
     asset: sheets_Linux_x86_64.tar.gz
     digest: sha256:5868d162a2df4771cd36122ae8e608ca7afca3d38774b2d17e9727db816e9c69
+    system: false
+  theatre:
+    repo: indium114/theatre
+    version: 2026.02.24-a
+    asset: theatre_Linux_x86_64
+    digest: sha256:529531fa88f75b0b53e137b5b04b10648b9110b7570060d79fef1fd4698a7f55
     system: false
   tv:
     repo: alexpasmantier/television
@@ -167,13 +191,10 @@ managers:
   - lua-language-server
   - pandoc
   - luacheck
-  - just
   - glow
   - gopls
   - yamlfmt
-  - jujutsu
   - aria2
-  - forgejo-cli
   - swift
   deb:
   - figlet
@@ -188,7 +209,6 @@ managers:
   - zathura
   - zathura-pdf-poppler
   - zathura-djvu
-  - vlc
   - libluajit-5.1-dev
   - liblua5.4-dev
   - libreoffice-writer
@@ -199,7 +219,4 @@ managers:
   - docker.io
   - libopengl0
   go:
-  - github.com/indium114/theatre@latest
   - github.com/spf13/cobra-cli@latest
-  - github.com/indium114/satchel@latest
-  - github.com/indium114/jots@latest
