@@ -98,15 +98,28 @@ wares:
     name: helium
     repo: imputnet/helium-linux
     asset: "helium-*-x86_64.AppImage"
-  pioneer:
-    name: pioneer
-    repo: pioneerspacesim/pioneer
-    asset: "Pioneer-x86_64.AppImage"
+  theatre:
+    name: theatre
+    repo: indium114/theatre
+    asset: "theatre_Linux_x86_64"
+  satchel:
+    name: satchel
+    repo: indium114/satchel
+    asset: "satchel_Linux_x86_64"
+  jots:
+    name: jots
+    repo: indium114/jots
+    asset: "jots_Linux_x86_64"
+  just:
+    name: just
+    repo: casey/just
+    asset: "just-*-x86_64-unknown-linux-musl.tar.gz"
 
 blueprints:
   pkgit:
     repo: "https://git.symlinx.net/pkgit"
     steps:
+      - "make clean"
       - "make"
     artifacts:
       - "pkgit"
@@ -151,13 +164,10 @@ managers:
     - "lua-language-server"
     - "pandoc"
     - "luacheck"
-    - "just"
     - "glow"
     - "gopls"
     - "yamlfmt"
-    - "jujutsu"
     - "aria2"
-    - "forgejo-cli"
     - "swift"
   deb:
     - "figlet"
@@ -172,7 +182,6 @@ managers:
     - "zathura"
     - "zathura-pdf-poppler"
     - "zathura-djvu"
-    - "vlc"
     - "libluajit-5.1-dev"
     - "liblua5.4-dev"
     - "libreoffice-writer"
@@ -183,7 +192,4 @@ managers:
     - "docker-compose"
     - "libopengl0"
   go:
-    - "github.com/indium114/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
-    - "github.com/indium114/satchel@latest"
-    - "github.com/indium114/jots@latest"
