@@ -122,8 +122,8 @@ wares:
 blueprints:
   pkgit:
     repo: https://git.symlinx.net/pkgit
-    commit: 198cde49db902ee97775c74c5cfd971b07cb0c78
-    builtcommit: 198cde49db902ee97775c74c5cfd971b07cb0c78
+    commit: 978c683301d1a600e05f69e1f934e330e3c68624
+    builtcommit: 978c683301d1a600e05f69e1f934e330e3c68624
     artifacts:
     - pkgit
     system: false
