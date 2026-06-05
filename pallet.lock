@@ -151,6 +151,13 @@ blueprints:
     artifacts:
     - build/fetchit
     system: false
+  pkgit:
+    repo: https://git.symlinx.net/pkgit
+    commit: 978c683301d1a600e05f69e1f934e330e3c68624
+    builtcommit: 978c683301d1a600e05f69e1f934e330e3c68624
+    artifacts:
+    - pkgit
+    system: false
   termfarm:
     repo: https://github.com/indium114/termfarm
     commit: 418d3a509e54d107c98a24a5e9180522515881c2
