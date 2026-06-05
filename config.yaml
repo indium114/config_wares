@@ -142,6 +142,13 @@ blueprints:
       - "swift build --configuration release"
     artifacts:
       - ".build/release/termfarm"
+  fetchit:
+    repo: "https://codeberg.org/nzuum/fetchit"
+    steps:
+      - "make clean"
+      - "make"
+    artifacts:
+      - "build/fetchit"
 
 managers:
   brew:

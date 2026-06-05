@@ -144,6 +144,13 @@ wares:
     digest: sha256:1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff
     system: false
 blueprints:
+  fetchit:
+    repo: https://codeberg.org/nzuum/fetchit
+    commit: 25fd005f39087ba6b41bdf897b0ca4063dfb4def
+    builtcommit: 25fd005f39087ba6b41bdf897b0ca4063dfb4def
+    artifacts:
+    - build/fetchit
+    system: false
   termfarm:
     repo: https://github.com/indium114/termfarm
     commit: 418d3a509e54d107c98a24a5e9180522515881c2
