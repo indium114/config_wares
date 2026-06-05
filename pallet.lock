@@ -61,9 +61,9 @@ wares:
     system: false
   lazygit:
     repo: jesseduffield/lazygit
-    version: v0.62.1
-    asset: lazygit_0.62.1_linux_x86_64.tar.gz
-    digest: sha256:99d78cce8883b24150c2f4ba151f6a0443644f63f63794f18d6643e99f75be09
+    version: v0.62.2
+    asset: lazygit_0.62.2_linux_x86_64.tar.gz
+    digest: sha256:8b9a4c2d0969cbea92b45c956dd2a44e1ba76900c9df49f1c60984045ce77984
     system: false
   libresprite:
     repo: libresprite/libresprite
@@ -83,12 +83,6 @@ wares:
     asset: nu-0.113.1-x86_64-unknown-linux-musl.tar.gz
     digest: sha256:7faea21f8a49edf760c7bb9267f7702827937b19fc7dce412716b1cacbf38ae7
     system: true
-  pioneer:
-    repo: pioneerspacesim/pioneer
-    version: "20260203"
-    asset: Pioneer-x86_64.AppImage
-    digest: sha256:e369965155c589f5e369b0975c228fefeb8b2a52031b6552540a8781869704ba
-    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.05.31-b
@@ -133,9 +127,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.6
+    version: 0.8.7
     asset: wares_Linux_x86_64
-    digest: sha256:34a8185c2dbf2430fdc2eb1536e0e2489d963d98030aadcda8bc79c2ab768a03
+    digest: sha256:af076bb92e5fb6f227638a0da0779b0f5a27b66c96acac33b2fb9281283a8961
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -144,13 +138,6 @@ wares:
     digest: sha256:1031a02560d053301537195a6661d227c15cb4ce5c30481050b31e2b88681bff
     system: false
 blueprints:
-  pkgit:
-    repo: https://git.symlinx.net/pkgit
-    commit: 978c683301d1a600e05f69e1f934e330e3c68624
-    builtcommit: 978c683301d1a600e05f69e1f934e330e3c68624
-    artifacts:
-    - pkgit
-    system: false
   termfarm:
     repo: https://github.com/indium114/termfarm
     commit: 418d3a509e54d107c98a24a5e9180522515881c2
@@ -160,8 +147,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: 931bdd501aea3a04b4f708db21d5c89123144755
-    builtcommit: 931bdd501aea3a04b4f708db21d5c89123144755
+    commit: 0cac65054e5f0b860d8b064472a399fab5cf16d2
+    builtcommit: 0cac65054e5f0b860d8b064472a399fab5cf16d2
     artifacts:
     - wares-git
     system: false

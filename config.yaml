@@ -116,13 +116,13 @@ wares:
     asset: "just-*-x86_64-unknown-linux-musl.tar.gz"
 
 blueprints:
-  pkgit:
-    repo: "https://git.symlinx.net/pkgit"
-    steps:
-      - "make clean"
-      - "make"
-    artifacts:
-      - "pkgit"
+  # pkgit:
+  #   repo: "https://git.symlinx.net/pkgit"
+  #   steps:
+  #     - "make clean"
+  #     - "make"
+  #   artifacts:
+  #     - "pkgit"
   wares-git:
     repo: "https://github.com/indium114/wares"
     steps:
