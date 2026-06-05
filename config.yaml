@@ -114,6 +114,11 @@ wares:
     name: just
     repo: casey/just
     asset: "just-*-x86_64-unknown-linux-musl.tar.gz"
+  glow:
+    name: glow
+    repo: charmbracelet/glow
+    asset: "glow_*_Linux_x86_64.tar.gz"
+    removetoplevel: true
 
 blueprints:
   # pkgit:
@@ -164,7 +169,6 @@ managers:
     - "lua-language-server"
     - "pandoc"
     - "luacheck"
-    - "glow"
     - "gopls"
     - "yamlfmt"
     - "aria2"
