@@ -91,9 +91,9 @@ wares:
     system: true
   pricetag:
     repo: indium114/pricetag
-    version: 2026.05.31-b
+    version: 2026.06.07-a
     asset: pricetag_Linux_x86_64
-    digest: sha256:b4f5dbf6f10667d3e34142871212b0c2a4422006b7aa2d8255cbb8853fdc56b8
+    digest:
     system: false
   prismlauncher:
     repo: prismlauncher/prismlauncher
@@ -133,9 +133,9 @@ wares:
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.7
+    version: 0.8.8
     asset: wares_Linux_x86_64
-    digest: sha256:af076bb92e5fb6f227638a0da0779b0f5a27b66c96acac33b2fb9281283a8961
+    digest:
     system: false
   yazi:
     repo: sxyazi/yazi
