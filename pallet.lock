@@ -89,11 +89,17 @@ wares:
     asset: nu-0.113.1-x86_64-unknown-linux-musl.tar.gz
     digest: sha256:7faea21f8a49edf760c7bb9267f7702827937b19fc7dce412716b1cacbf38ae7
     system: true
+  nvim:
+    repo: neovim/neovim
+    version: v0.12.2
+    asset: nvim-linux-x86_64.appimage
+    digest: sha256:f9f1901144dc1b0715a1f5178b596d7cdbb22c0f027383bb430862d59377b59f
+    system: false
   pricetag:
     repo: indium114/pricetag
     version: 2026.06.07-a
     asset: pricetag_Linux_x86_64
-    digest:
+    digest: sha256:75b2828139790709a8b06df8dea80a22cf271320736028a02996449b83132dfe
     system: false
   prismlauncher:
     repo: prismlauncher/prismlauncher
@@ -135,7 +141,7 @@ wares:
     repo: indium114/wares
     version: 0.8.8
     asset: wares_Linux_x86_64
-    digest:
+    digest: sha256:84ab10cd13798fe372c1d07980b4f775aa9f6b8b85b1794d8f46ecbea18bf32a
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -151,13 +157,6 @@ blueprints:
     artifacts:
     - build/fetchit
     system: false
-  pkgit:
-    repo: https://git.symlinx.net/pkgit
-    commit: 978c683301d1a600e05f69e1f934e330e3c68624
-    builtcommit: 978c683301d1a600e05f69e1f934e330e3c68624
-    artifacts:
-    - pkgit
-    system: false
   termfarm:
     repo: https://github.com/indium114/termfarm
     commit: 418d3a509e54d107c98a24a5e9180522515881c2
@@ -167,8 +166,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: 0cac65054e5f0b860d8b064472a399fab5cf16d2
-    builtcommit: 0cac65054e5f0b860d8b064472a399fab5cf16d2
+    commit: 0458da84f618302b8fb62b4e71a8f492d849edda
+    builtcommit: 0458da84f618302b8fb62b4e71a8f492d849edda
     artifacts:
     - wares-git
     system: false
