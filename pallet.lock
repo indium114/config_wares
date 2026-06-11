@@ -13,9 +13,9 @@ wares:
     system: false
   gh:
     repo: cli/cli
-    version: v2.93.0
-    asset: gh_2.93.0_linux_amd64.tar.gz
-    digest: sha256:02d1290eba130e0b896f3709ffff22e1c75a51475ddb70476a85abc6b5807af0
+    version: v2.94.0
+    asset: gh_2.94.0_linux_amd64.tar.gz
+    digest: sha256:a757f1ba6db18f4de8cbadb244843a5f89bc75b5e7c6fc127d2bd77fbd12ed62
     system: false
   glow:
     repo: charmbracelet/glow
@@ -25,9 +25,9 @@ wares:
     system: false
   helium:
     repo: imputnet/helium-linux
-    version: 0.12.5.1
-    asset: helium-0.12.5.1-x86_64.AppImage
-    digest: sha256:b9465ab8dada957ea46ad9a73bd5432c4b3e77e1c88648e4795dfa0f0d9e5263
+    version: 0.13.2.1
+    asset: helium-0.13.2.1-x86_64.AppImage
+    digest: sha256:23d56a5c4db414d8c4cfd172bdc099f19a9165b3c853e42d18f6e501dc09464f
     system: false
   hocusfocus:
     repo: indium114/hocusfocus
@@ -55,9 +55,9 @@ wares:
     system: false
   just:
     repo: casey/just
-    version: 1.51.0
-    asset: just-1.51.0-x86_64-unknown-linux-musl.tar.gz
-    digest: sha256:c8f085ca3e885723c341d06243fc291b5abfdc8bbe3b2c076b117de490387b59
+    version: 1.52.0
+    asset: just-1.52.0-x86_64-unknown-linux-musl.tar.gz
+    digest: sha256:e0a712614574d45625332529c864754e26782422b7c7db931466180a618f092d
     system: false
   keepassxc:
     repo: keepassxreboot/keepassxc
@@ -91,9 +91,9 @@ wares:
     system: true
   nvim:
     repo: neovim/neovim
-    version: v0.12.2
+    version: v0.12.3
     asset: nvim-linux-x86_64.appimage
-    digest: sha256:f9f1901144dc1b0715a1f5178b596d7cdbb22c0f027383bb430862d59377b59f
+    digest: sha256:5709e7f3653c9ccc96bb78e79ae1ad3b1191f34d12075f27c469f702f301a2e8
     system: false
   pricetag:
     repo: indium114/pricetag
@@ -133,15 +133,15 @@ wares:
     system: false
   tv:
     repo: alexpasmantier/television
-    version: 0.15.7
-    asset: tv-0.15.7-x86_64-unknown-linux-musl.tar.gz
-    digest: sha256:da70438c6bcaf1f465115575678953138dde897609ff8db23b4a19ebab965e1c
+    version: 0.15.8
+    asset: tv-0.15.8-x86_64-unknown-linux-musl.tar.gz
+    digest: sha256:dfc0cd19d50e5b3de91eb3e6e9c95c027e1df43d6e9b446e10eb6ea4ca456a83
     system: false
   wares:
     repo: indium114/wares
-    version: 0.8.8
+    version: 0.8.9
     asset: wares_Linux_x86_64
-    digest: sha256:84ab10cd13798fe372c1d07980b4f775aa9f6b8b85b1794d8f46ecbea18bf32a
+    digest: sha256:4310a7d66bd0e464c2e31ab7a8af58e3f41e3eb1b7883b798f94c26b88db0380
     system: false
   yazi:
     repo: sxyazi/yazi
@@ -166,8 +166,8 @@ blueprints:
     system: false
   wares-git:
     repo: https://github.com/indium114/wares
-    commit: 0458da84f618302b8fb62b4e71a8f492d849edda
-    builtcommit: 0458da84f618302b8fb62b4e71a8f492d849edda
+    commit: b6240bb615dc98f1614497fad8c1f1eadcc572a5
+    builtcommit: b6240bb615dc98f1614497fad8c1f1eadcc572a5
     artifacts:
     - wares-git
     system: false
