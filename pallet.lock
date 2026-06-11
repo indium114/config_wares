@@ -125,6 +125,12 @@ wares:
     asset: sheets_Linux_x86_64.tar.gz
     digest: sha256:5868d162a2df4771cd36122ae8e608ca7afca3d38774b2d17e9727db816e9c69
     system: false
+  supertux:
+    repo: supertux/supertux
+    version: v0.7.0
+    asset: SuperTux-v0.7.0.glibc2.38-x86_64.AppImage
+    digest: sha256:8f6f083d073600b56e20dfe7d880da3199a6dfaa318669ef1a2e132927f2d761
+    system: false
   theatre:
     repo: indium114/theatre
     version: 2026.02.24-a

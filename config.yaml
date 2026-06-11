@@ -123,6 +123,10 @@ wares:
     name: nvim
     repo: neovim/neovim
     asset: "nvim-linux-x86_64.appimage"
+  supertux:
+    name: supertux
+    repo: supertux/supertux
+    asset: "*.AppImage"
 
 blueprints:
   # pkgit:
