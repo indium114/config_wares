@@ -125,6 +125,12 @@ wares:
     asset: satchel_Linux_x86_64
     digest: sha256:30dca4878d5847db3b326aef75e1af071d9fe0c677236d0b3b16740525a72a86
     system: false
+  serpl:
+    repo: yassinebridi/serpl
+    version: 0.3.6
+    asset: serpl-0.3.6-linux-x86_64.tar.gz
+    digest: sha256:9fbca6d16fbcb625443d448141ff29e85fe9c6b178c4efe9b593e7cc7846ad6f
+    system: false
   sheets:
     repo: maaslalani/sheets
     version: v0.2.0

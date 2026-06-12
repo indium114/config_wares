@@ -135,6 +135,10 @@ wares:
     name: zellij
     repo: zellij-org/zellij
     asset: "zellij-x86_64-unknown-linux-musl.tar.gz"
+  serpl:
+    name: serpl
+    repo: yassinebridi/serpl
+    asset: "serpl-*-linux-x86_64.tar.gz"
 
 blueprints:
   # pkgit:
