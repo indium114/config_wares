@@ -235,5 +235,6 @@ managers:
   - docker-compose
   - docker.io
   - libopengl0
+  - cryptsetup-bin
   go:
   - github.com/spf13/cobra-cli@latest
